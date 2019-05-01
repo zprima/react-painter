@@ -1,3 +1,3 @@
-Run with `yarn start`.
+Run with `yarn start`.
    
-![Screenshot](pic1.png)
+<img src="pic1.png" width="300px" alt="Screenshot"></img>
