@@ -1,13 +1,12 @@
 import React from "react";
+import { PainterContext } from '../contexts/PainterContext';
 
-class ColorPreview extends React.Component {
-  render() {
-    return (
-      <div className="colorPreview">
-        Color selected: {this.props.color.name}
-      </div>
-    );
-  }
+function ColorPreview(props) {
+  const {color} = React.useContext(PainterContext);
+
+  return (
+    <div className="colorPreview">Color selected: {color.name}</div>
+  );
 }
 
 export default ColorPreview;
